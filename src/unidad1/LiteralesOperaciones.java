@@ -12,12 +12,12 @@ public class LiteralesOperaciones {
 		• Con guiones bajos para mejorar la legibilidad: 1_000_000
 		• Se pueden escribir en notación científica:*/
 		
-		int decimal = 123;
+		/*int decimal = 123;
 		int hexasegimal = 0x1A;
 		int binario = 0b1010;
 		int grande = 1_000_000;
 		
-		double exp = 1.2e3; // 1.2 × 10³ = 1200
+		double exp = 1.2e3; // 1.2 × 10³ = 1200*/
 		
 		
 		

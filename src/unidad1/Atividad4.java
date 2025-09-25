@@ -2,7 +2,7 @@ package unidad1;
 
 public class Atividad4 {
 
-	final static double IVA = 21;
+	final static int IVA = 21;
 	
 	public static void main(String[] args) {
 		
