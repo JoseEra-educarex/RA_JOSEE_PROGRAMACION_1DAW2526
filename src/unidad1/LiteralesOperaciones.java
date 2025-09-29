@@ -16,6 +16,7 @@ public class LiteralesOperaciones {
 		int hexasegimal = 0x1A;
 		int binario = 0b1010;
 		int grande = 1_000_000;
+		char c4 = '\u03A9'; // código Unicode para Ω
 		
 		double exp = 1.2e3; // 1.2 × 10³ = 1200*/
 		
