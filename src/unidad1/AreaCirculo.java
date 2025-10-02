@@ -22,7 +22,7 @@ public class AreaCirculo {
 		area= PI*radio*radio;
 		
 		System.out.println("Área de la circunferencia es igual a "+ area + " metros cuadrados");
-		
+		entrada.close();
 		
 	}
 
