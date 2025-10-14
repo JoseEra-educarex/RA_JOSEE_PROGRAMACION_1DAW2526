@@ -22,6 +22,17 @@ public class Cadenas {
 		System.out.println(s.split("\\s+")[1]); // "Hola" ó "Java" dependiendo del split
 		System.out.println("".isEmpty()); // true si longitud == 0
 		System.out.println(" ".isBlank()); // true en Java 11+ (solo espacios)
+		
+		System.out.println("*********************************");
+		
+		String a = "hola";
+		String b = new String("hola");
+		System.out.println(a == b); // false, distintos espacios de memoria 
+		System.out.println(a.equals(b)); // true equalIgnoreCase si solo se diferencian en mayusculas 
+	
+		
+	
+	
 	}
 
 }
