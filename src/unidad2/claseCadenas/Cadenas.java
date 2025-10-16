@@ -19,7 +19,7 @@ public class Cadenas {
 		System.out.println(s.contains("Ja")); // true
 		System.out.println(s.replace("Java","Mundo")); // " Hola Mundo "
 		System.out.println(s.replaceAll("\\s+","A")); // usando regex -> " Hola Java "
-		System.out.println(s.split("\\s+")[1]); // "Hola" ó "Java" dependiendo del split
+		System.out.println("split "+s.split("\\s+")[1]); // "Hola" ó "Java" dependiendo del split
 		System.out.println("".isEmpty()); // true si longitud == 0
 		System.out.println(" ".isBlank()); // true en Java 11+ (solo espacios)
 		
