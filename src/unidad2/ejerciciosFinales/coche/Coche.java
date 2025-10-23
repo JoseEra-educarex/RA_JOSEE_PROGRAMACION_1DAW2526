@@ -1,4 +1,4 @@
-package unidad2.ejercicio.coche;
+package unidad2.ejerciciosFinales.coche;
 
 public class Coche {
 	
@@ -53,7 +53,7 @@ public class Coche {
 	
 	public void mostrarInfo() {
 		
-		System.out.println("El coche "+ marca+ " corre a "+ velocidad);
+		System.out.println("El coche "+ marca+ " corre a "+ velocidad+" Km/h");
 	}
 	
 	

@@ -1,4 +1,4 @@
-package unidad2.ejercicio.coche;
+package unidad2.ejerciciosFinales.coche;
 
 public class MainCoche {
 
