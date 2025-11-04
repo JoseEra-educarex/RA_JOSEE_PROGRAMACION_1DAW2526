@@ -46,7 +46,7 @@ public class TestLibreria {
 		miLibreria.mostrarLibreria();
 		System.out.println("El precio final con descuento es "+precioFinal);
 		
-		
+		entrada.close();
 		
 	}
 
