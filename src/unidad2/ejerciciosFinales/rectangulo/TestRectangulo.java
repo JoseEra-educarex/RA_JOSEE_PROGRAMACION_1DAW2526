@@ -9,9 +9,9 @@ public class TestRectangulo {
 		salon.setAltura(10);
 		salon.setBase(20);
 		
-		double area=salon.calcularArea();
+		//double area=salon.calcularArea();
 		
-		System.out.println("El area del Rectangulo es "+area+"cm");
+		System.out.println("El area del Rectangulo es "+salon.calcularArea()+"cm");
 	}
 
 }
