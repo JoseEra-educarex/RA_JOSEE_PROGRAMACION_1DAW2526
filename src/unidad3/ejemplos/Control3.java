@@ -11,11 +11,6 @@ public class Control3 {
 			• “Notable” si 7–8
 			• “Sobresaliente” si 9–10*/
 		
-		
-		
-		
-		
-		
 		int nota;
 		
 		Scanner entrada= new Scanner(System.in);
