@@ -11,15 +11,33 @@ public class Ejerc_15 {
 		 * los Badajoz, y muestre el número de años que se necesitó para superar.
 			Guarde el archivo como PoblacionBovina.java.*/
 
-		long N_bovino=354000;
-		long N_ovino=410000;
-		
-		double Tasa_crecimiento_bovino=1.01/100;//sumar
-		double Tasa_decrecimiento_ovino=0.15/100;//restar
-		
-	
-		
-		
-	}
+		// Población inicial de bovino en Cáceres
+        double poblacionCaceres = 354000;
+        // Tasa de crecimiento anual para Cáceres (1.01%)
+        final double TASA_CRECIMIENTO_CACERES = 0.0101;
 
+        // Población inicial de ovino en Badajoz
+        double poblacionBadajoz = 410000;
+        // Tasa de reducción anual para Badajoz (0.15%)
+        final double TASA_REDUCCION_BADAJOZ = 0.0015;
+
+        int anios = 0;
+
+        System.out.println("----------------- Evolución de las Poblaciones ----------------");
+        System.out.println("Año 0: Población Cáceres = " + Math.round(poblacionCaceres) + " | Población Badajoz = " + Math.round(poblacionBadajoz));
+
+        // Bucle while para simular el paso del tiempo hasta que la población de Cáceres supere a la de Badajoz
+        while (poblacionCaceres <= poblacionBadajoz) {
+            // Calcular nueva población de Cáceres
+            poblacionCaceres += poblacionCaceres * TASA_CRECIMIENTO_CACERES;
+            // Calcular nueva población de Badajoz
+            poblacionBadajoz -= poblacionBadajoz * TASA_REDUCCION_BADAJOZ;
+            
+            anios++;
+            System.out.println("Año " + anios + ": Población Cáceres = " + Math.round(poblacionCaceres) + " | Población Badajoz = " + Math.round(poblacionBadajoz));
+        }
+
+        System.out.println("\n--- Resumen ---");
+        System.out.println("La población de Cáceres (" + Math.round(poblacionCaceres) + ") superó a la de Badajoz (" + Math.round(poblacionBadajoz) + ") en " + anios + " años.");
+    }
 }
