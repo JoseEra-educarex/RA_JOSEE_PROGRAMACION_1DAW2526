@@ -27,7 +27,7 @@ public class Ejec_17 {
 
 		            tipoPienso = entrada.nextLine();
 
-		      
+		     
 
 		            char opcion = Character.toUpperCase(tipoPienso.charAt(0));
 
@@ -56,7 +56,5 @@ public class Ejec_17 {
 		        entrada.close();
 		    }
 
-		    public static int calcularPrecioFinal(int precio, int kilos) {
-		        return precio * kilos;
-		    }
+		   
 		}

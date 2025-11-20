@@ -39,8 +39,9 @@ public class Ejec_16 {
 				double totalAhorrado = 0;
 
 		        for (int i = 1; i <= anios_Jubilacion; i++) {
-		            totalAhorrado += ahorro_anual;      // se añade el ahorro del año
-		            totalAhorrado *= 1 + TASA_AHORRO_ANUAL; // se aplica el interés anual
+		          
+		        	totalAhorrado += ahorro_anual*(totalAhorrado*0.04);
+		            
 		        }
 
 		        System.out.println("El total ahorrado "+ Math.round(totalAhorrado)+" Euros");

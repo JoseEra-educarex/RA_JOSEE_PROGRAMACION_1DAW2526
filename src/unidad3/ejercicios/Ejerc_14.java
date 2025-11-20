@@ -67,8 +67,8 @@ public class Ejerc_14 {
 			
 		System.out.println("¿Está afiliado a nuestra clinica?");
 		System.out.println("Los afiliados obtienen un 8% de descuento!!!");
-		String limpiarBf=entrada.nextLine();
 		String respuesta=entrada.nextLine();
+				respuesta=entrada.nextLine();
 		
 	
 
@@ -76,7 +76,7 @@ public class Ejerc_14 {
                double nuevoPrecio = calcularNuevoPrecio(precio);
 			System.out.println("Su nuevo precio es: "+ nuevoPrecio+ " Euros");
 		}else {
-			System.out.println("¿Le gustaria afiliarse?");
+			System.out.println("Afiliese para obtener ventajas y descuentos!");
 		}
 		
 		}
