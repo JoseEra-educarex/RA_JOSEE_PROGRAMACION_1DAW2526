@@ -18,16 +18,18 @@ public class Ejer_21 {
 		
 		
 		//Variables
-		int dias;
+
 
 	double tarifaDia=0;
 	
 	
 	double precioKm=0;
 
+	double precioFinal=0;
+	char opcion;
 	
 	
-	
+	do {
 	System.out.println("---Bienvenido---");
 	System.out.println("Seleccione un tamaño de vehiculo: ");
 	System.out.println("P: Pequeño | Precio/dia=15 | Precio/Km=0.20");
@@ -36,48 +38,64 @@ public class Ejer_21 {
 	
 	String tamañoVehiculo=entrada.nextLine();
 	
-	char opcion= Character.toUpperCase(tamañoVehiculo.charAt(0));
+	 opcion= Character.toUpperCase(tamañoVehiculo.charAt(0));
 	
+		
 	switch(opcion) {
 	
 	case 'P':
 		tarifaDia=15;
 		precioKm=0.20;
 		
-		System.out.println("");
 	   break;
 	  
 	case 'M':
-		System.out.println();
+		tarifaDia=20;
+		precioKm=0.30;
+			
 	   break;
 	   
 	case 'G':
-		System.out.println();
+		tarifaDia=30;
+		precioKm=0.40;
+			
 	   break;
 	
 	default: 
-		  System.out.println();
-	}
+		 
+		System.out.println("Ha seleccionado un opcion invalida!");
+			}
 	
+		}while(opcion!='P'&& opcion!='G'&& opcion!='M');
+	
+	precioFinal=calcularPrecio(tarifaDia,precioKm);
+	
+	System.out.println("Su precio final es "+precioFinal+ " Euros" );
 	
 	}
 	
 	public static double calcularPrecio(double tarifaDia, double precioKm) {
+		
+		double precioFinal=0;
+		
 		System.out.println("¿Cuantos dia alquilara el coche?");
 		
 		int dias=entrada.nextInt();
 		
 		System.out.println("¿Cuantos kilometros hara al dia?");
 		System.out.println("mas de 10 km al dia tiene un recargo del 2.5 del total");
-		
+	
 		int Km_Dia=entrada.nextInt();
 		
 		if(Km_Dia>=10) {
 			
-			double precioFinal=dias* tarifaDia*
+			precioFinal=(dias * tarifaDia) + (dias * Km_Dia * precioKm)+(precioFinal*0.025);
+			
+		}else {
+			precioFinal=(dias * tarifaDia) + (dias * Km_Dia * precioKm);
 		}
-		
+		entrada.close();
 		return precioFinal;
 	}
-
+	
 }

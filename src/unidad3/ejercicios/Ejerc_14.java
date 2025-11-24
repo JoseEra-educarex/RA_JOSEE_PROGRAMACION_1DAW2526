@@ -57,7 +57,7 @@ public class Ejerc_14 {
 		System.out.println();
 		}
 		
-		}while(opcion!=0 && opcion !=1 && opcion !=2 && opcion !=3);
+		}while(opcion < 0 || opcion > 3);
 		
 		if(opcion==0) {
 		

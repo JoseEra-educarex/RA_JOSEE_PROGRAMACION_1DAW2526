@@ -40,7 +40,11 @@ public class Ejec_16 {
 
 		        for (int i = 1; i <= anios_Jubilacion; i++) {
 		          
-		        	totalAhorrado += ahorro_anual*(totalAhorrado*0.04);
+		        	 // Se suma lo que se ahorra este año
+                    totalAhorrado += ahorro_anual;
+
+                    // Se aplica el interés del 4%
+                    totalAhorrado += totalAhorrado * TASA_AHORRO_ANUAL;
 		            
 		        }
 

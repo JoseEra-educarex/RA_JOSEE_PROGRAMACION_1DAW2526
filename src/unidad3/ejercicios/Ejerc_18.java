@@ -46,20 +46,20 @@ public class Ejerc_18 {
 		
 		
 		
-		opcion=Character.toLowerCase(tipoOperacion.charAt(0));
+		opcion=Character.toUpperCase(tipoOperacion.charAt(0));
 		
 		switch (opcion) {
 		
-		case 's':
+		case 'S':
 			System.out.println("La suma es igual a: "+ (num1+num2));
 		 break;
-		case 'r':
+		case 'R':
 			System.out.println("La resta es igual a: "+ (num1-num2));
 		 break;
-		case 'm':
+		case 'M':
 			System.out.println("La multiplicacion es igual a: "+ (num1*num2));
 		 break;
-		case 'd':
+		case 'D':
 			System.out.println("La division es igual a: "+ (num1/num2));
 		 break;
 		 
