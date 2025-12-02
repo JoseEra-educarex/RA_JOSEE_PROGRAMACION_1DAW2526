@@ -10,6 +10,8 @@ public class descomponerString {
 	        System.out.print("Introduce la contraseña: ");
 	        String pass = entrada.nextLine();
 	        
+	        
+	        
 	        // Flags para verificar los requisitos
 	        boolean tieneMinuscula = false;
 	        boolean tieneMayuscula = false;
