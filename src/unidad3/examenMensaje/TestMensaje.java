@@ -26,7 +26,7 @@ public class TestMensaje {
 			System.out.println("2. Mostrar mensaje de mayor Longitud");
 			System.out.println("3. Contar cuantas veces aparece una letra en un mensaje");
 			System.out.println("4. Mostrar contenido del mensaje invertido");
-			//for(int i=m1.getContenido().length-1;i<=0,i--){}
+			//for(int i=m1.getContenido().length-1;i>0,i--){}
 			System.out.println("5. Convertir un mensaje a Formato Titulo");
 			System.out.println("6. Salir");
 			System.out.println("Seleccione un opción: ");
