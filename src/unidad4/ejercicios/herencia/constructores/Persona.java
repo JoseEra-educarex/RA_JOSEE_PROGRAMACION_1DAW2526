@@ -33,4 +33,11 @@ public void setEdad(int edad) {
 
 
 
+@Override
+public String toString() {
+	return "Persona [nombre=" + nombre + ", edad=" + edad + "]";
+}
+
+
+
 }

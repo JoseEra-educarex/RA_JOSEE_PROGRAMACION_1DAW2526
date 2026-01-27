@@ -10,14 +10,9 @@ public class Main {
 		Profesor p=new Profesor("Juan", 40, "Programación");
 
 		
-		
+		System.out.println(a);
+		System.out.println(p);
 		
 	}
 
-	public static void presentarse(String nombre, int edad, String curso, String especialidad) {
-		
-		System.out.println(""
-				+ "");	}
-	
-	
 }
