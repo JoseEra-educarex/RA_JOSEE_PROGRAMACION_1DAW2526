@@ -19,7 +19,7 @@ Modifica el valor del viernes: ha habido una tormenta y ahora son 45.0 litros.*/
 		
 		for(int i=0;i<7;i++) {
 			
-			System.out.println(dias[i]+": "+lluvias[i]+" l");
+			System.out.println(dias[i]+": "+lluvias[i]+" l por metros cuadrados");
 	
 			
 		}
@@ -27,12 +27,13 @@ Modifica el valor del viernes: ha habido una tormenta y ahora son 45.0 litros.*/
 		System.out.println("_____Lluvia del viernes____");
 		System.out.println("``````````````````````````");
 		System.out.println(" `````````````````````````");
+		
 		lluvias[4]=45.0;
 		
 
 		for(int i=0;i<7;i++) {
 			
-			System.out.println(dias[i]+": "+lluvias[i]+" l");
+			System.out.println(dias[i]+": "+lluvias[i]+" l por metros cuadrados");
 	
 			
 		}

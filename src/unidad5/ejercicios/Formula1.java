@@ -16,10 +16,17 @@ Reto: Intenta acceder a la posición pilotos[3] y anota en tu cuaderno qué exce
 				
 System.out.println("El ganador es "+pilotos[0]+" y en tercera posicion "+pilotos[2]);
 		
-		//pilotos[3] _-> lanza  ArrayIndexOutOfBoundsException
+System.out.println("pilotos[3] -> lanza  ArrayIndexOutOfBoundsException");
+	
+		try {	
+				System.out.println(pilotos[3]);
+			
+		}catch(ArrayIndexOutOfBoundsException e) {
+				
+			System.out.println("posicion fuera del array");
 		
-		
-		
+		}
+	
 	}
 
 	
