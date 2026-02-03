@@ -18,18 +18,25 @@ public class ArraysParalelos {
 	}
 
 	public static void imprimirBoletin(String[] nombres, double[] notas) {
-	    double suma = 0;
+	    
+		double suma = 0;
 
 	    // 1. Calcular la media
-	    for (double nota : notas) {
-	        suma += nota;
+	  
+	    for (int i = 0; i < notas.length; i++) {
+	        
+	    	suma += notas[i];
 	    }
 	    double media = suma / notas.length;
 
+	   
 	    // 2. Recorrer arrays y filtrar
+	    
 	    for (int i = 0; i < nombres.length; i++) {
-	        if (notas[i] > media) {
-	            System.out.println("El alumno " + nombres[i] + " tiene un " + notas[i]);
+	        
+	    	if (notas[i] > media) {
+	            
+	    		System.out.println("El alumno " + nombres[i] + " tiene un " + notas[i]);
 	        }
 	    }
 	}

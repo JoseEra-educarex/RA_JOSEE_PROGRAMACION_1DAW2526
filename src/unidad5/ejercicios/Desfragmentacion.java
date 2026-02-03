@@ -34,19 +34,24 @@ lo copio en notas[p] e incremento p. Al final, relleno de -1 desde p hasta el fi
 	
 	}
 	public static void compactarArray(double[] array) {
-	    int indiceDestino = 0;
+	    
+		int indiceDestino = 0;
 
 	    // Recorremos el array
 	    for (int i = 0; i < array.length; i++) {
-	        if (array[i] != -1.0) {
-	            array[indiceDestino] = array[i];
-	            indiceDestino++;
+	       
+	    	if (array[i] != -1.0) {
+	          
+	    		array[indiceDestino] = array[i];
+	           
+	    		indiceDestino++;
 	        }
 	    }
 
 	    // Rellenamos el resto con -1.0
 	    for (int i = indiceDestino; i < array.length; i++) {
-	        array[i] = -1.0;
+	        
+	    	array[i] = -1.0;
 	          
 	    }
 	
