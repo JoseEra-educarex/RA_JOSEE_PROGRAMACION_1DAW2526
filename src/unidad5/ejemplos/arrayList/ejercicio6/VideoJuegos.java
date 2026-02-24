@@ -1,6 +1,6 @@
 package unidad5.ejemplos.arrayList.ejercicio6;
 
-public class VideoJuegos implements Comparable{
+public class VideoJuegos implements Comparable<Object>{
 
 	private String titulo; 
 	private String plataforma;
