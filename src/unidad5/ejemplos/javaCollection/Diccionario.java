@@ -42,6 +42,7 @@ public class Diccionario {
 			
 		}while(!palabra.equalsIgnoreCase(palabra));
 		
+		entrada.close();
 		
 	}
 

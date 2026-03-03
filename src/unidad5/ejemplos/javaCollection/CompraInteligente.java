@@ -20,8 +20,8 @@ public class CompraInteligente {
 	
 		List<String> compra= new ArrayList<>();
 		
-		String opcion=null;
-		String borrado=null;
+		String opcion="";
+		String borrado="";
 		int contador=0;
 		do {
 			System.out.println();
