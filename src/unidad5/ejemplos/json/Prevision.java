@@ -1,15 +1,17 @@
 package unidad5.ejemplos.json;
 
+import java.util.ArrayList;
+
 public class Prevision {
 
 	private String ciudad;
 	private double temperatura;
-	private String alertas[];
+	private ArrayList <String> alertas;
 	public Prevision(String ciudad, double temperatura, String[] alertas) {
 		super();
 		this.ciudad = ciudad;
 		this.temperatura = temperatura;
-		this.alertas = alertas;
+		this.alertas = new ArrayList <>();
 	}
 	public String getCiudad() {
 		return ciudad;
@@ -23,12 +25,13 @@ public class Prevision {
 	public void setTemperatura(double temperatura) {
 		this.temperatura = temperatura;
 	}
-	public String[] getAlertas() {
+	public ArrayList<String> getAlertas() {
 		return alertas;
 	}
-	public void setAlertas(String[] alertas) {
+	public void setAlertas(ArrayList<String> alertas) {
 		this.alertas = alertas;
 	}
+
 
 	
 	

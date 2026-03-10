@@ -1,10 +1,36 @@
 package unidad5.ejemplos.json;
 
+import java.util.List;
+
+import com.google.gson.Gson;
+
+
 public class Act1_HombreTiempo {
 
 	public static void main(String[] args) {
 
-	//String informacion=	"{\"ciudad\": \"Mérida\",\"temperatura\": 22.5,\"alertas\": \[\"Viento\", \"Polen\"\]}";
+
+		String informacion="{\"ciudad\": \"Mérida\",\"temperatura\": 22.5,\"alertas\": [\"Viento\", \"Polen\"]}";
+	
+	
+		Gson deserializador = new Gson();
+
+Prevision miPrevision= deserializador.fromJson(informacion, Prevision.class);
+
+
+System.out.println("Cuidado en "+ miPrevision.getCiudad()+"!");
+
+
+List<String> alertas= miPrevision.getAlertas();
+
+System.out.println("Hay alerta de: "+miPrevision.getAlertas());
+
+
+for(String alerta : alertas) {
+	
+	System.out.println(alerta);
+}
+	
 	}
 
 }
