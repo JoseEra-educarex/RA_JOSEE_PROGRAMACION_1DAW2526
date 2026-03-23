@@ -6,13 +6,13 @@ public class Usuario {
 	
 	private int edad;
 	
-	private String correo;
+	private String email;
 
-	public Usuario(String nombre, int edad, String correo) {
+	public Usuario(String nombre, int edad, String email) {
 		super();
 		this.nombre = nombre;
 		this.edad = edad;
-		this.correo = correo;
+		this.email = email;
 	}
 
 	public String getNombre() {
@@ -31,12 +31,12 @@ public class Usuario {
 		this.edad = edad;
 	}
 
-	public String getCorreo() {
-		return correo;
+	public String getEmail() {
+		return email;
 	}
 
-	public void setCorreo(String correo) {
-		this.correo = correo;
+	public void setEmail(String email) {
+		this.email = email;
 	}
 
 

@@ -2,8 +2,6 @@ package unidad5.ejemplos.json;
 
 import com.google.gson.Gson;
 
-import unidad1.SystemOut;
-
 public class PerfilUsuario {
 
 	public static void main(String[] args) {
@@ -17,9 +15,8 @@ public class PerfilUsuario {
 	
 	System.out.println("Nombre: "+usuario1.getNombre());
 	System.out.println("Edad: "+usuario1.getEdad()+" Años");
-	System.out.println("Correo: "+ usuario1.getCorreo());
+	System.out.println("Correo: "+ usuario1.getEmail());
 	
-
 	
 	Usuario u2 = new Usuario("Pedro",30,"pedro@gmail.com");
 	
