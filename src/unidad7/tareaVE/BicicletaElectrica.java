@@ -22,10 +22,10 @@ public class BicicletaElectrica extends VehiculoElectrico{
 	@Override
 	public void mostrarInformacion() {
 		
-		System.out.println("Mostrando caracteristicas del Vehiculo Electrico");
-		System.out.println("Marca: "+marca);
-		System.out.println("Modelo: "+modelo);
-		System.out.println("Autonomia: "+autonomia);
+		System.out.println("Bicicleta Electrica");
+		System.out.print("Marca: "+marca+" - ");
+		System.out.print("Modelo: "+modelo+" - ");
+		System.out.print("Autonomia: "+autonomia+" - ");
 		if (tienePedales==true)System.out.println("Bicicleta Electrica con Pedales");
 		else System.out.println("Bicicleta Electrica sin pedales");
 	}
@@ -33,8 +33,9 @@ public class BicicletaElectrica extends VehiculoElectrico{
 	public void cargar() {
 		System.out.println("Cargando bicicleta eléctrica...");
 	}
+
 	
-	
+
 }
 /*BicicletaElectrica
 o Atributos adicionales:

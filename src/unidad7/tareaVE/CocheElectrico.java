@@ -20,17 +20,18 @@ public class CocheElectrico extends VehiculoElectrico{
 	@Override
 	public void mostrarInformacion() {
 		
-		System.out.println("Mostrando caracteristicas del Vehiculo Electrico");
-		System.out.println("Marca: "+marca);
-		System.out.println("Modelo: "+modelo);
-		System.out.println("Autonomia: "+autonomia);
-		System.out.println("Numero de plazas: "+ numeroPlazas);
+		System.out.println("Coche Electrico");
+		System.out.print("Marca: "+marca+" - ");
+		System.out.print("Modelo: "+modelo+" - ");
+		System.out.print("Autonomia: "+autonomia+" - ");
+		System.out.print("Numero de plazas: "+ numeroPlazas);
 	}
 	
 	@Override
 	public void cargar() {
 		System.out.println("Cargando coche eléctrico...");
 	}
+
 	
 	
 	

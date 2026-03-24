@@ -42,13 +42,20 @@ public class VehiculoElectrico {
 	public void mostrarInformacion() {
 		
 		System.out.println("Mostrando caracteristicas del Vehiculo Electrico");
-		System.out.println("Marca: "+marca);
-		System.out.println("Modelo: "+modelo);
-		System.out.println("Autonomia: "+autonomia);
+		System.out.print("Marca: "+marca+" - ");
+		System.out.print("Modelo: "+modelo+" - ");
+		System.out.print("Autonomia: "+autonomia+" - ");
 	}
 	public void cargar() {
 		System.out.println("Cargando vehículo eléctrico...");
 	}
+
+	
+	
+	
+	
+	
+	
 }
 
 
