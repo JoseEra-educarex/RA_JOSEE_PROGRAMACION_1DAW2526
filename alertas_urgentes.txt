@@ -1,0 +1,8 @@
+[2026-03-21 09:15:30] [INFO] Peticion web servida en 20ms.
+[2026-03-21 10:30:00] [INFO] Reinicio del servidor.
+[2026-03-21 09:15:30] [INFO] Peticion web servida en 20ms.
+[2026-03-21 10:30:00] [INFO] Reinicio del servidor.
+[2026-03-21 09:15:30] [INFO] Peticion web servida en 20ms.
+[2026-03-21 10:30:00] [INFO] Reinicio del servidor.
+[2026-03-21 09:12:05] [ERROR] Base de datos no responde (Timeout).
+[2026-03-21 10:01:45] [CRITICAL] Caida general del sistema de ficheros.
