@@ -1,0 +1,9 @@
+El gasto total es: 12450.75Euros
+El empleado que mas cobra es: 3500.0 Elena Gomez
+El usuario admin tiene la password: super_secreta_123 y acceso total. El usuario invitado usa la password: 123456 y tiene acceso limitado. El director entra con password: admin2026 para ver las cuentas.
+El usuario admin tiene la password: super_secreta_123 y acceso total. El usuario invitado usa la password: 123456 y tiene acceso limitado. El director entra con password: admin2026 para ver las cuentas.
+El usuario admin tiene la password: super_secreta_123 y acceso total. El usuario invitado usa la password: 123456 y tiene acceso limitado. El director entra con password: admin2026 para ver las cuentas.
+El usuario admin tiene la password: super_secreta_123 y acceso total. El usuario invitado usa la password: 123456 y tiene acceso limitado. El director entra con password: admin2026 para ver las cuentas.
+El usuario admin tiene la password: super_secreta_123 y acceso total. El usuario invitado usa la password: 123456 y tiene acceso limitado. El director entra con password: admin2026 para ver las cuentas.
+El usuario admin tiene la password: super_secreta_123 y acceso total. El usuario invitado usa la password: 123456 y tiene acceso limitado. El director entra con password: admin2026 para ver las cuentas.
+El usuario admin tiene la password: super_secreta_123 y acceso total. El usuario invitado usa la password: 123456 y tiene acceso limitado. El director entra con password: admin2026 para ver las cuentas.

@@ -1,0 +1,7 @@
+[2026-03-21 08:00:15] [INFO] Servidor iniciado correctamente.
+[2026-03-21 08:05:22] [WARNING] Uso de memoria al 75%.
+[2026-03-21 08:45:10] [INFO] Usuario 'profesor' logueado.
+[2026-03-21 09:12:05] [ERROR] Base de datos no responde (Timeout).
+[2026-03-21 09:15:30] [INFO] Peticion web servida en 20ms.
+[2026-03-21 10:01:45] [CRITICAL] Caida general del sistema de ficheros.
+[2026-03-21 10:30:00] [INFO] Reinicio del servidor.
