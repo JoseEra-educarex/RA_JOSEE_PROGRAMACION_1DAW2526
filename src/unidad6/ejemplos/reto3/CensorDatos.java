@@ -30,16 +30,13 @@ public class CensorDatos {
 		
 			
 		while((linea = br.readLine())!=null) {
-			System.out.println(linea);
+	
+			 linea=linea.replaceAll("password", "DATO_OCULTO");
+		
 
-		String [] campos= linea.split(".");//devuelve un array de campos
-		
-		
-		for(String s: campos) {
-			System.out.println(s);
-		}
-		
-		 /* try (BufferedWriter bw = new BufferedWriter(new FileWriter("./src/unidad6/ejemplos/reto1/usuarios_censurados.txt", true));
+	
+	
+		try (BufferedWriter bw = new BufferedWriter(new FileWriter("/home/diurno/eclipse-workspace/RA_JOSEE_PROGRAMACION_1DAW2526/usuarios_censurados.txt", true));
 		            PrintWriter out = new PrintWriter(bw)) {  // PrintWriter nos da el cómodo println()
 			
 			  out.println(linea);
@@ -47,7 +44,7 @@ public class CensorDatos {
 			  
 		  }catch(IOException e){
 			  
-			  
+			  System.out.println("Error al escrbir: " + e.getMessage());
 			  }
 		
 		
@@ -62,9 +59,9 @@ public class CensorDatos {
 		
 		
 		
-		}*/
-		
 		}
+		
+		
 		}catch (IOException e) {
 			
 			System.out.println("Error al Leer: " + e.getMessage());

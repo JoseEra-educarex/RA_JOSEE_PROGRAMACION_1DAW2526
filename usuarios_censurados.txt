@@ -1,1 +1,1 @@
-El usuario admin tiene la password: super_secreta_123 y acceso total. El usuario invitado usa la password: 123456 y tiene acceso limitado. El director entra con password: admin2026 para ver las cuentas.
+El usuario admin tiene la DATO_OCULTO: super_secreta_123 y acceso total. El usuario invitado usa la DATO_OCULTO: 123456 y tiene acceso limitado. El director entra con DATO_OCULTO: admin2026 para ver las cuentas.
