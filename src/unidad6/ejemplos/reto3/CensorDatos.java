@@ -48,18 +48,10 @@ public class CensorDatos {
 			  }
 		
 		
+			
 		
 		
-		
-
-		
-	
-		
-		
-		
-		
-		
-		}
+		}//fin de while
 		
 		
 		}catch (IOException e) {
@@ -67,5 +59,5 @@ public class CensorDatos {
 			System.out.println("Error al Leer: " + e.getMessage());
 		 
 		}
-	}
-}
+	}//fin del main
+}//fin de la clase

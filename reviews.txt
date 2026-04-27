@@ -1,0 +1,4 @@
+Pedro;comentario aburrido
+Juan;comentario basura 
+Antonio;comentario sin problemas 
+Maria;comentario sin problemas
