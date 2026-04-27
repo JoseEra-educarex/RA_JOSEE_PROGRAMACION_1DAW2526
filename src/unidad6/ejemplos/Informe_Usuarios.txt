@@ -1,0 +1,6 @@
+[1] - pepito@gmail.com - Estado: INACTIVO
+
+[2] - miguelito@gmail.com - Estado: ACTIVO
+
+[3] - pascualito@gmail.es - Estado: ACTIVO
+
