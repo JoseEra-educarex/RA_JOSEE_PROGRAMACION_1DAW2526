@@ -40,25 +40,36 @@ Ejemplo: juan.perez@gmail.com se escribirá en el fichero como ********@gmail.co
 		
 		try (BufferedWriter bw = new BufferedWriter(new FileWriter("/home/diurno/eclipse-workspace/RA_JOSEE_PROGRAMACION_1DAW2526/Ofuscador", true));
 	            PrintWriter out = new PrintWriter(bw)) { 
-	            for (Usuario u : listaUsuarios) {
-	                out.println(u.toString());
+	           
+			  for (Usuario u : listaUsuarios) {
+
+	                String emailOfuscado = ofuscarEmail(u.getEmail());
+	            
+	                out.println("ID: " + u.getId() +
+	                            " Email: " + emailOfuscado +
+	                            " Activo: " + u.isActivo());
 	            }
 
 	            System.out.println("Archivo generado correctamente.");
 
 	        } catch (IOException e) {
-	        	System.out.println("Error al escrbir: " + e.getMessage());
+	            System.out.println("Error al escribir: " + e.getMessage());
 	        }
 	    }
+
+	    // Método para ofuscar el email
+	    public static String ofuscarEmail(String email) {
+
+	        int posArroba = email.indexOf('@');
+
+	        String dominio = email.substring(posArroba); // desde @ hasta el final
+	        String nombre = email.substring(0, posArroba); // antes de @
+
+	        String asteriscos = "";
+	        for (int i = 0; i < nombre.length(); i++) {
+	            asteriscos += "*";
+	        }
+
+	        return asteriscos + dominio;
+	    }
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
